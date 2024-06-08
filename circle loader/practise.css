@@ -1,0 +1,22 @@
+
+#circle{
+    height: 200px;
+    width: 200px;
+    border: 15px solid rgb(174, 173, 173);
+    border-top: 15px solid black;
+    border-radius: 50%;
+    animation: spin 3s linear 0s infinite normal;
+    position: fixed;
+    right: 660px;
+    top: 260px;
+    scale: 0.7;
+    
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }    
+}
